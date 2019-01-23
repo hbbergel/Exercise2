@@ -19,7 +19,7 @@
  > Race condition is a flaw that occurs when the timing or ordering of events affects a program's correctness. Data race happens when there are two memory accesses in a program where both target the same location. 
 
 ### List some advantages of using message passing over lock-based synchronization primitives.
-> 
+> Message passing is easier to code in a way that you see how the program behaves.
 
 ### List some advantages of using lock-based synchronization primitives over message passing.
-> *Your answer here*
+> Lock-based can give you a more efficient program but might be hard to implement.
